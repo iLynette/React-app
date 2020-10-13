@@ -1,0 +1,59 @@
+body{
+  overflow-x: hidden;
+  background:url('https://images.unsplash.com/photo-1507979791009-a8b32dc34288?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60');
+  background-size: cover;
+  background-position: top center;
+  min-height: 100vh;
+}
+* {
+  margin: 0;
+  padding: 0;
+  
+}
+ul {
+  list-style-type: none;
+}
+.ten {
+  color: #fff;
+  height: 100%;
+  font-size: 1.5em;
+  text-align: center;
+  padding-top: 150px;
+}
+.menu{
+  color: #fff;
+  font-size: 1.4em;
+  padding-top: 20px;
+}
+.main {
+  text-align: center;
+  font-size: 2em;
+  padding-bottom: 25px;
+  color: #fff;
+}
+.food {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+ 
+}
+.navbar {
+  color: #fff;
+  text-align: center;
+  font-size: 1.7em;
+}
+.nav ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.contact {
+  color: #fff;
+  text-align: center;
+  padding-top: 160px;
+  font-size: 1.6em;
+}
+img {
+  width: 300px;
+  height: 250px;
+  padding: 30px;
+  border-radius: 50px;
+}
